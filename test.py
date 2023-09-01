@@ -15,7 +15,7 @@ bnb_config = transformers.BitsAndBytesConfig(
     bnb_4bit_compute_dtype=bfloat16
 )
 
-hf_auth = <Copy&paste your User Access Token from Hugging Face>
+hf_auth = "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"
 model_config = transformers.AutoConfig.from_pretrained(
     model_id,
     use_auth_token=hf_auth
